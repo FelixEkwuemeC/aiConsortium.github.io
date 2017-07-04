@@ -58,6 +58,13 @@
 
 /* Grid */
 
+.hide-inline{display:none}.lt-ie9 
+.hide{display:block}.lt-ie9 
+.hide-inline{display:inline}.lt-ie9
+.read-more{display:none}.lt-ie9
+a.read-more{color:#ed1c24;}
+a.read-more:hover{color:#7f0a0f}
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;

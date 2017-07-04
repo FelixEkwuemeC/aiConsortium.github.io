@@ -22,7 +22,21 @@
 							<h1>AI Governance Consortium </h1>
 							<p class="major"><!--[-->
 
-Openly connecting principles for governing the development and application of AI, and fostering public debate. </p>
+Openly connecting principles for governing the development and application of AI, and fostering public debate.</p>
+
+<div class="hide">
+<p><span class="hide-inline">The AI Governance Consortium is an open agency of AI Experts, 
+and government regulators openly connecting principles for governing the development and 
+application of AI, and fostering public debate.  The role of the AIGC is to serve as an 
+oversight body and grant approval for the protection of inventors, the future of innovation
+ and the safety and interest of the public. It serves the interests of inventors and 
+ businesses with respect to their inventions and applications of AI. It also advises 
+ and assists innovators to navigate local and international laws required for Artificial 
+ Intelligence development. AIGC promotes the industrial and technological progress of 
+ innovators, the safety of the public and strength of the economy.
+ </span>&nbsp;<a class="read-more" href="#">Learn More</a></p>
+
+</div>
 
 							<ul class="actions vertical">
 								<li><a href="mailto:fcekwueme@gmail.com" class="button">Join Us!</a></li>
@@ -66,8 +80,17 @@ Laws govern the conduct of humans, and sometimes the machines that humans use, s
 <br>
 </p>
 <p> Requirements include holding developers and corporations to a standard that requires clarity on liability for harm resulting from the use of artificial intelligence. <br>AI Consortium also uses machine-learning techniques to spot similarities in other AI applications formerly approved, as a way to provide reference for new submissions.
-<br><br><strong>This consortium ensures that only AI models trained properly and working as expected would make it into the market.</strong>
 </p>
+
+<h3>At minimum, to ensure standards, you must:</h3>
+							<p>
+							<ul>
+								<li>Correctly identify any harmful impacts of your artificial intelligence application. </li>
+								<li>Appropriate means of redress.</li>
+								<li>Clearly define accountability measures.</li>
+								<li>Clearly provide substantial benefits for society offered by this artificial intelligence application.</li>
+							</ul>
+							
 							<ul class="actions vertical">
 								<li><a href="#toxic" class="button">See More</a></li>
 							</ul>
@@ -101,19 +124,14 @@ Laws govern the conduct of humans, and sometimes the machines that humans use, s
 				<!-- Five -->
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id=tenets>
 						<div class="content">
-							<h2>Tenets of Clean Insights</h2>
-							<p>AI systems are starting to have transformational impacts on everyday life: from driverless cars, to bank apps that let us deposit checks with a picture, to informed decision making tools that tailors products for sales, and advertising. Such breakthroughs raise a host of questions for society, including ethical issues about the transparency of AI decision-making as well as privacy, safety, and overall governance. </p>
+							<h2>Transparency in Innovation</h2>
 							
-							<h3>At minimum, to ensure standards, you must:</h3>
-							<p>
-							<ul>
-								<li>Correctly identify any harmful impacts of artificial intelligence. </li>
-								<li>Appropriate means of redress.</li>
-								<li>Clearly define accountability measures.</li>
-								<li>Clearly provide substantial benefits for society offered by this artificial intelligence application.</li>
-							</ul>
+							<p>AI systems are starting to have transformational impacts on everyday life: from driverless cars, to bank apps that let us deposit checks with a picture, to informed decision making tools that tailors products for sales, and advertising. Such breakthroughs raise a host of questions for society, including ethical issues about the transparency of AI decision-making as well as privacy, safety, and overall governance.
+		
+		<br><br>By ensuring transparency, we provide avenue for public debate on applications of AI, an important factor in governance. 
+		The consortium is understanding of privacy issues, and is able to adapt to new uses and more advanced forms of artificial intelligence.
+<br><br><strong>This consortium ensures that only AI models trained properly and working as expected would make it into the market.</strong>
 
-The consortium is flexible, able to adapt to new uses and more advanced forms of artificial intelligence.
 </p>
 							<ul class="actions vertical">
 								<li><a href="#app" class="button">See More</a></li>
@@ -148,7 +166,7 @@ The consortium is flexible, able to adapt to new uses and more advanced forms of
 							<span class="icon style2 major fa-linkedin"></span>
 							<h2>Contact </h2>
 							<p>An opportunity to build on this project, along with many more contributors would pave way for a major impact.</p>
-							<a href="https://www.linkedin.com/in/fcekwueme/" class="button">Take me to the brain</a>
+							<a href="https://www.linkedin.com/in/fcekwueme/" class="button" target="0">Take me to the brain</a>
 							<div class="inner">
 								<section>
 								<hr>
@@ -182,6 +200,11 @@ The consortium is flexible, able to adapt to new uses and more advanced forms of
 		<p>&copy; Except where otherwise noted, this website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 	</div>
 </footer>
+   <script>
+      function getHeight(el){var el_style=window.getComputedStyle(el),el_display=el_style.display,el_max_height=el_style.maxHeight.replace("px","").replace("%",""),wanted_height=0;if(el_display!=="none"&&el_max_height!=="0")return el.offsetHeight;el.style.display="block";wanted_height=el.offsetHeight;el.style.display=el_display;return wanted_height}
+function toggleSlide(el){var el_max_height=0;if(el.getAttribute("data-max-height"))if(el.style.maxHeight.replace("px","").replace("%","")==="0")el.style.maxHeight=el.getAttribute("data-max-height");else el.style.maxHeight="0";else{el_max_height=getHeight(el)+"px";el.style["transition"]="max-height 0.5s ease-in-out";el.style.overflowY="hidden";el.style.maxHeight="0";el.setAttribute("data-max-height",el_max_height);el.style.display="block";setTimeout(function(){el.style.maxHeight=el_max_height},10);
+setTimeout(function(){document.querySelector(".hide").style["transition"]="all 0s 0s ease";document.querySelector(".hide").style["max-height"]="none"},700)}}if(window.addEventListener)document.querySelector(".read-more").addEventListener("click",function(e){this.style.display="none";document.querySelector(".hide-inline").style.display="inline";toggleSlide(document.querySelector(".hide"));e.preventDefault();return false},false);
+    </script>
 
 		</body>
 	      </html>
